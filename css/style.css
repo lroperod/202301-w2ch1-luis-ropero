@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  max-width: 250px;
+}
+.first-card {
+  background-color: hsl(31, 77%, 52%);
+  padding: 1.5rem;
+  height: 20rem;
+}
+.second-card {
+  background-color: hsl(184, 100%, 22%);
+  padding: 1.5rem;
+  height: 20rem;
+}
+.third-card {
+  background-color: hsl(179, 100%, 13%);
+  padding: 1.5rem;
+  height: 20rem;
+}
+.card-title {
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+}
+.card-text {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+.card-button {
+  border-radius: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+}
+.card-sedans {
+  width: min-content;
+}
+.card-suvs {
+  width: min-content;
+}
+.card-luxury {
+  width: min-content;
+}
