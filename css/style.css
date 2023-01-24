@@ -2,26 +2,48 @@
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  max-width: 250px;
+  max-width: 375px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+}
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  height: 70%;
+  gap: 1rem;
 }
 .first-card {
   background-color: hsl(31, 77%, 52%);
   padding: 1.5rem;
   height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .second-card {
   background-color: hsl(184, 100%, 22%);
   padding: 1.5rem;
   height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .third-card {
   background-color: hsl(179, 100%, 13%);
   padding: 1.5rem;
   height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .card-title {
   font-family: "Big Shoulders Display";
   color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
 }
 .card-text {
   font-family: "Lexend Deca", sans-serif;
@@ -30,11 +52,9 @@
 }
 .card-button {
   border-radius: 20px;
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  height: 18rem;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  width: 7rem;
 }
 .card-sedans {
   width: min-content;
@@ -44,4 +64,14 @@
 }
 .card-luxury {
   width: min-content;
+}
+@media (min-width: 426px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-top: 10%;
+    max-width: 50rem;
+  }
 }
